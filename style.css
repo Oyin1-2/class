@@ -1,3 +1,177 @@
-h1{
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding-left: 25px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
     color: red;
+    text-decoration: underline;
+}
+.man{
+    color: darkblue;
+}
+.bottle{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+section{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 600px;
+    height: 400px;
+    background-color: black;
+}
+.earth{
+    font-size: 5rem;
+    color: white;
+}
+.wire{
+   transform: translateY(20px);
+   color: white;
+}
+.Dog{
+    width: 130px;
+    height: 40px;
+    transform: translateY(35px);
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
+}
+.fa-solid{
+    font-size:20px ;
+}
+.fff{
+    width: 600px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+}
+.pillow{
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.area{
+    width: 100%;
+    height: 40vh;
+    background-color:black ;
+    
+}
+.bbb{
+    
+}
+.mow{
+    width: 80%;
+    height: 100px;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+     
+}
+.boy{
+    width: 600px;
+    height: 100px;
+    background-color: black;
+}
+.pump{
+    font-family:'Times New Roman', Times, serif ;
+    color: white;
+}
+.why{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+.rrr{
+    height: 600px;
+}
+.bus{
+    height: 500px;
+    width: 2000px;
+}
+.menu{
+    display:none ;
+  color: black ; 
+}
+@media  screen and (max-width: 600px) {
+      .menu{
+        display: block;
+        color: blue;
+      }
+    .bac{
+        display: none;
+    }
+    .area{
+        display: none;
+    }
+    .container{
+        display: block;
+    }
+    .fff{
+        width: 500px;
+        height: 500px;
+    }
+    .bbb{
+        display: none;
+    }
+    .bottle{
+        display: none;
+    }
+    .pump{
+        font-weight: 900px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .icon-open{
+    color: white;
+    }
+    .icon-close{
+        color: white;
+     }                                      
 }
